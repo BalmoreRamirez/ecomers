@@ -1,24 +1,49 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Open+Sans&display=swap");
+body {
+  font-family: 'Lato', sans-serif;
+}
+
 .header {
   background-color: #00BFA5;
-  height: 200px; }
+  height: 200px;
+}
 
-.search {
-  background-color: #29B6F6;
-  height: 35px;
-  margin-right: 100px; }
+/*----------------------------------------*/
+.icon-outstanding {
+  height: 150px;
+  width: 650px;
+}
 
-.body {
-  height: 500px;
-  background-color: #004D40; }
+.sold p {
+  font-weight: lighter;
+  color: #262626;
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.sold span {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.sold i {
+  color: yellow;
+}
+
+.sold img {
+  max-width: 100%;
+  height: 225px;
+}
 
 .footer {
   height: 100px;
-  background-color: #00B8D4; }
-  .footer .icon {
-    background-color: #01579B; }
+  background-color: #00B8D4;
+  color: #ffffff;
+}
 
 .footer2 {
-  background-color: #29B6F6;
-  height: 60px; }
-  .footer2 .actor {
-    background-color: #004D40; }
+  background-color: #448bf2;
+  height: 60px;
+  color: #ffffff;
+}
+/*# sourceMappingURL=style.css.map */
