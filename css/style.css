@@ -1,0 +1,24 @@
+.header {
+  background-color: #00BFA5;
+  height: 200px; }
+
+.search {
+  background-color: #29B6F6;
+  height: 35px;
+  margin-right: 100px; }
+
+.body {
+  height: 500px;
+  background-color: #004D40; }
+
+.footer {
+  height: 100px;
+  background-color: #00B8D4; }
+  .footer .icon {
+    background-color: #01579B; }
+
+.footer2 {
+  background-color: #29B6F6;
+  height: 60px; }
+  .footer2 .actor {
+    background-color: #004D40; }
