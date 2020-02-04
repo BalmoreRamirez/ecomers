@@ -1,6 +1,6 @@
 @import 'fonts';
-
-$footer: #00B8D4;
+$footer: #0071bc;
+$colorFooter: #4aa8ff;
 $herader : #00BFA5;
 $secction1 : #0071bc;
 $secction2 : #448bf2;
@@ -14,18 +14,12 @@ body{
     height: 200px;
 }
 /*----------------------------------------*/
-.icon-outstanding{
-    height: 150px;
-    width: 650px;
-}
-
 
 .morebold{
     background-image: url('/img/lo-mas-vendido-bg.png');
     background-size: cover;
     widows: 100%;
     height: 100%;
-
 }
 .sold{
     margin-top: 400px;
@@ -45,9 +39,7 @@ body{
     height: 10px;
 }
 .sold img{
-
     @media screen and (max-width: 768px){
-
     }
 }
 .badge{
@@ -67,27 +59,42 @@ body{
     &:hover{
         filter: opacity(1);
     }
+    @media screen and (max-width: 768px){
+        margin-left: 90px;
+padding-top: 10px;
+        height: 200px;
+        filter: opacity(.2);
+        &:hover{
+            filter: opacity(1);
+        }
+        
+    }
+
 }
 
 
 
 
-
-
-
-
-
-
-
+.icon-outstanding{
+    height: 150px;
+    width: 90px;
+    margin-left: 150px;
+    padding-bottom: 60px;
+}
 .footer{
-    height: 100px;
+    widows: 100%;
+    height: 80px;
     background-color:$footer;
-    color: #ffffff;
+    margin-top: 35px;
+    P{
+        padding-top: 30px;
+        color: $colorFooter;
+        font-weight: bold;
+    }
 }
 .footer2{
     background-color: $secction2;
     height: 60px;
     color: #ffffff;
-
-
+ 
 }
